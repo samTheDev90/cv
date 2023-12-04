@@ -1,0 +1,168 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body{
+  display: flex;
+  background-color: rgb(158, 117, 197);
+  padding:100px;
+  justify-content: center;
+}
+.entire-page{
+
+  width: 900px;
+  height: 950px;
+ position: relative;
+ padding: 30px;
+ padding-left: 10px;
+ background-color: rgba(112, 63, 16, 0.988);
+}
+.side{
+  position: absolute;
+  bottom: 2%;
+  left:2%;
+top: 5%;
+right: 66%;
+  padding: 5px 5px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(227, 225, 178);
+  border: 3px solid black;
+  z-index: 1;
+}
+.middle{
+position: absolute;
+right: 0%;
+left: 15%;
+bottom: 0%;
+top: 0%;
+background-color: azure;
+
+}
+.cvPic{
+  align-self: center;
+  margin: 15px;
+  /* position: absolute; */
+  border: 2px solid rgb(96, 10, 158);
+  /* left: 10%; */
+  border-radius: 10px;
+  height: 140px;
+  width: 120px;
+}
+.contact{
+  margin-bottom: 50px;
+}
+.contact ul{
+  list-style-type: none;
+}
+.contact h2{
+
+text-align: left;
+margin: 10px;
+font-weight: 600;
+font-size: 18px;
+
+}
+.contact ul li{
+  margin-bottom: 15px;
+  margin-left: 5px;
+}
+.contact .mail{
+  align-self: bottom;
+  margin-bottom: -2px;
+ 
+}
+.contact p{ 
+  text-align: center;
+}
+.ed{
+  margin: 0px 15px 30px 10px;
+}
+.ed h2{
+  text-align: left;
+
+font-weight: 700;
+font-size: 20px;
+height: 30px;
+margin-bottom: 30px;
+
+}
+.ed h3{
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 10px;
+  ;
+}
+.ed p{
+  margin: 10px;
+  margin-left: 0
+}
+.ed .hsc{
+  margin-bottom: 30px;
+}
+.ref{
+  margin:15px 5px;
+}
+.ref h2{
+font-size: 19px;
+margin-bottom:15px;
+}
+.ref p{
+line-height: 30px;
+font-size: 15px;
+
+}
+.middle{
+  padding-left: 195px;
+  padding-top: 110px;
+  padding-right: 15px;
+display: flex;
+flex-direction: column;
+
+
+}
+.middle .contents h1{
+font-size: 40px;
+margin-bottom: 40px;
+
+}
+.rl-ex{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-left: 3px;
+}
+.rl-ex h3, .rl-ex p{
+margin-top: 5px;
+margin-bottom: 5px;
+
+}
+.rl-ex ul{
+  margin-left: 30px;
+  
+}
+.rl-ex ul li{
+  margin-top: 10px;
+}
+.skills{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 30px;
+  
+
+}
+.skills .skill ,.skills .addskill {
+
+  font-size: 20px;
+}
+
+.skills ul li{
+  font-weight: 600;
+  margin-top: 15px;
+  font-size: 18px;
+}
+.skills .addskill{
+
+  margin-left: 90px;
+}
